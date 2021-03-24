@@ -1,0 +1,40 @@
+
+Below is a list of all Hyper-V VSS errors reported in the Event Viewer
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    Event ID: 32315
+    Description: Hyper-V failed to replicate changes for virtual machine <VMname> (Virtual Machine ID <VMid>). Hyper-V will retry replication after 5 minute(s).
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    Event ID:32022
+    Description: Hyper-V could not replicate changes for virtual machine <VMname>: The operation has been canceled (0x00002EF1). (Virtual Machine ID <VMid>
+
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 32546
+    Description: <VMname> failed to perform the operation. The virtual machine is not in a valid state to perform the operation. (Virtual machine ID <VMid>)
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 19050
+    Description: <VMname> failed to perform the operation. The virtual machine is not in a valid state to perform the operation. (Virtual machine ID <VMid>)
+
+    Source:
+    EventID: 32056
+    Description: Hyper-V failed to apply replication logs for <VMname>: Operation aborted (0x80004004). (Virtual Machine ID <VMid>)
+
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 32546
+    Description: <VMname> failed to perform the operation. The virtual machine is not in a valid state to perform the operation. (Virtual machine ID <VMid>)
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 19050
+    Description: <VMname> failed to perform the operation. The virtual machine is not in a valid state to perform the operation. (Virtual machine ID <VMid>)
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 32032
+    Description: Hyper-V failed to complete apply for <VMname>: Operation aborted (0x80004004). (Virtual machine ID <VMid>)
+
+    Source: Microsoft-Windows-Hyper-V-VMMS
+    EventID: 33680
+    Description: Replication operation for virtual machine <VMname> failed. (Virtual machine ID <VMid>) (Primary server: 'primaryServer.contoso.com', Replica server: 'secondaryServer.contoso.com')
